@@ -16,12 +16,12 @@ namespace Mobiloids.Task
             {
                 if (InSameCell(x1, y1, x2, y2, x3, y3))
                     return 0;
-                else if (InSameCell(x1, y1, x2, y2) || InSameCell(x1, y1, x3, y3) || InSameCell(x3, y3, x2, y2))
+                else if (InSameCell(x1, y1, x2, y2) || InSameCell(x1, y1, x3, y3) 
+                    || InSameCell(x3, y3, x2, y2))
                     return 1;
                 else 
                 {
-
-                    return 0;
+                    return 3;
                 }
             }
         }
