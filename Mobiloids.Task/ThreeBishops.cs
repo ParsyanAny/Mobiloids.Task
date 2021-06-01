@@ -22,6 +22,7 @@ namespace Mobiloids.Task
                 else 
                 {
                     return 3;
+                    // not finished
                 }
             }
         }
